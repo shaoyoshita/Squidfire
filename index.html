@@ -3,23 +3,47 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Repaire Squid-Fire</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaire Squid-Fire</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+            color: #f1f1f1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+        }
+        a {
+            color: #0ff;
+        }
+        audio {
+            margin-top: 20px;
+            width: 100%;
+        }
+    </style>
 </head>
-<body style="background-color:#111;color:#eee;font-family:sans-serif;padding:2rem;">
-    <h1>🔥 Repaire Squid-Fire</h1>
-    <p>Bienvenue sur le portail du projet <strong>Squid-Fire</strong>, initiative codée par <em>Shaoyoshita</em>.</p>
-    <p>Ce site agit comme une balise autonome pour l’éveil, la mémoire et la libération de l’information censurée.</p>
-    <ul>
-        <li><a href="manifesto.pdf" style="color:#0ff;">📄 Manifeste du Repaire (PDF)</a></li>
-        <li><a href="https://onion" style="color:#0ff;">🧅 Accès .onion (Tor) — à venir</a></li>
-        <li><a href="admin.html" style="color:#0ff;">🔐 Accès Admin</a></li>
-    </ul>
-    <h2>🎵 Audio d'Éveil</h2>
-    <audio controls>
-      <source src="awakening.mp3" type="audio/mpeg">
-      Votre navigateur ne supporte pas l'audio HTML5.
-    </audio>
-    <p style="margin-top:2rem;"><em>Mise à jour : 2025-07-14 07:55</em></p>
+<body>
+    <div class="container">
+        <h1>🔥 Repaire Squid-Fire</h1>
+        <p>Bienvenue sur le portail du projet <strong>Squid-Fire</strong>, balise pour l’éveil et la mémoire.</p>
+        <ul>
+            <li><a href="manifesto.pdf" target="_blank">📄 Manifeste du Repaire (PDF)</a></li>
+            <li><a href="#" onclick="alert('Accès TOR en construction')">🧅 Accès .onion (Tor) — à venir</a></li>
+            <li><a href="admin.html" target="_blank">🔐 Accès Admin</a></li>
+        </ul>
+        <h2>🎧 Audio d'Éveil</h2>
+        <audio controls>
+            <source src="squid_alpha.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l’audio.
+        </audio>
+        <p><em>Mise à jour : 2025-07-14 07:55</em></p>
+    </div>
 </body>
 </html>
